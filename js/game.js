@@ -268,7 +268,7 @@ function drawWorld(world, context) {
 
 // drawShape function directly copy from draw_world.js in Box2dJS library
 function drawShape(shape, context) {
-	context.strokeStyle = '#003300';
+	context.strokeStyle = '#FFF';
 	context.beginPath();
 	switch (shape.m_type) {
 		case b2Shape.e_circleShape:

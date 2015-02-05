@@ -2,7 +2,7 @@
 <html lang=en>
 <head>
     <meta charset=utf-8>
-    <title>Save Kenny</title>
+    <title>Save Frodo</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
 
@@ -10,7 +10,7 @@
 <body>
 <div id="wrap" style="display: none">
     <header>
-        <h1>Save Kenny</h1>
+        <h1>Save Frodo</h1>
     </header>
     <section id="game-container">
         <canvas id="game" width='1300' height='700' class="startscreen"></canvas>
@@ -18,19 +18,19 @@
 
             <div id="score-board">
                 <table class="table center-table">
-                    <tr class="warning">
+                    <tr class="alert-danger">
                         <td><span class="spanCounter">Time elapsed</span></td>
                         <td id="counterTime" class="counter"><input type="hidden" name="counter-value" value="0"/></td>
                     </tr>
-                    <tr class="success">
+                    <tr class="alert-danger">
                         <td><span class="spanCounter">Score</span></td>
                         <td id="counterScore" class="counter"><input type="hidden" name="counter-value" value="0"/></td>
                     </tr>
-                    <tr class="warning">
+                    <tr class="alert-danger">
                         <td><span class="spanCounter">Lives</span></td>
                         <td id="counterLives" class="counter"><input type="hidden" name="counter-value" value="0"/></td>
                     </tr>
-                    <tr class="success">
+                    <tr class="alert-danger">
                         <td><span class="spanCounter">Levels to go</span></td>
                         <td id="counterLevels" class="counter"><input type="hidden" name="counter-value" value="0"/>
                         </td>
@@ -45,10 +45,10 @@
 <div id="welcome">
     <div class="container text-center">
         <div class="page-header">
-            <h1>Welcome to Save Kenny Game</h1>
+            <h1>Welcome to Save Frodo Game</h1>
         </div>
         <p class="lead ">
-            Instructions: You need to get to where Kenny is.
+            Instructions: You need to get to where Frodo is.
         </p>
 
         <p class="lead ">
@@ -63,24 +63,9 @@
             You can press W and before going down press A or D
         </p>
 
-        <p class="lead ">
-            This game contains coarse language that could make it inappropriate for younger audiences
-        </p>
-        <br><br><br>
-
-        <p class="lead text-center">
-            Guillermo Mansilla - Student ID 300714073
-            <br>
-            Images and sounds are property of South Park Studios
-            <br>
-            This game uses 3rd party libraries like: Jquery, Box2D, Jquery-UI, Bootstrap and Jquery-FlipCounter
-            <br>
-
-            Source code is available <a href="https://github.com/gmansilla/platformer/commits/develop">here</a>
-        </p>
 
         <p>
-            <button id="showBoard" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Lets save Kenny!
+            <button id="showBoard" class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Lets save Frodo!
             </button>
         </p>
     </div>
@@ -89,8 +74,8 @@
     </div>
 </div>
 <div id="asset">
-    <img id="person" src='images/cartman.png'>
-    <img id="win" src='images/kenny.png'>
+    <img id="person" src='images/gandalf.png'>
+    <img id="win" src='images/frodo.png'>
 </div>
 <div>
     <audio id="audio-background" loop>
