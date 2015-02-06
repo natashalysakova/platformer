@@ -2,7 +2,7 @@
 <html lang=en>
 <head>
     <meta charset=utf-8>
-    <title>Save Frodo</title>
+    <title>Спасите Фродо</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
 
@@ -10,7 +10,7 @@
 <body>
 <div id="wrap" style="display: none">
     <header>
-        <h1>Save Frodo</h1>
+        <h1>Спасите Фродо</h1>
     </header>
     <section id="game-container">
         <canvas id="game" width='1300' height='700' class="startscreen"></canvas>
@@ -19,22 +19,22 @@
             <div id="score-board">
                 <table class="table center-table">
                     <tr class="alert-danger">
-                        <td><span class="spanCounter">Time elapsed</span></td>
+                        <td><span class="spanCounter">Время прошло</span></td>
                         <td id="counterTime" class="counter"><input type="hidden" name="counter-value" value="0"/></td>
                     </tr>
                     <tr class="alert-danger">
-                        <td><span class="spanCounter">Score</span></td>
+                        <td><span class="spanCounter">Счёт</span></td>
                         <td id="counterScore" class="counter"><input type="hidden" name="counter-value" value="0"/></td>
                     </tr>
                     <tr class="alert-danger">
-                        <td><span class="spanCounter">Lives</span></td>
+                        <td><span class="spanCounter">Жизни</span></td>
                         <td id="counterLives" class="counter"><input type="hidden" name="counter-value" value="0"/></td>
                     </tr>
-                    <tr class="alert-danger">
-                        <td><span class="spanCounter">Levels to go</span></td>
-                        <td id="counterLevels" class="counter"><input type="hidden" name="counter-value" value="0"/>
-                        </td>
-                    </tr>
+                    <!--<tr class="alert-danger">-->
+                        <!--<td><span class="spanCounter">Levels to go</span></td>-->
+                        <!--<td id="counterLevels" class="counter"><input type="hidden" name="counter-value" value="0"/>-->
+                        <!--</td>-->
+                    <!--</tr>-->
                 </table>
 
             </div>
@@ -45,27 +45,27 @@
 <div id="welcome">
     <div class="container text-center">
         <div class="page-header">
-            <h1>Welcome to Save Frodo Game</h1>
+            <h1>Добро пожаловать в игру Спасите Фродо</h1>
         </div>
         <p class="lead ">
-            Instructions: You need to get to where Frodo is.
+            Фродо должен добраться до Гендальфа
         </p>
 
         <p class="lead ">
-            Every move you make will make your score to decrease, <br> so you need to hurry before your score reaches 0
+            Каждый фаг будет уменьшать твой счет, <br> поэтому нужно поторопиться, пока чсет не достиг 0
         </p>
 
         <p class="lead ">
-            Controls: <br>
-            "A" to move left <br>
-            "D" to move right <br>
-            "W" to jump. <br>
-            You can press W and before going down press A or D
+            Управление: <br>
+            "A" движение влево <br>
+            "D" движение вправо <br>
+            "W" прыжок <br>
+            Тебе надо нажать W и пока не упал, нажать A или D
         </p>
 
 
         <p>
-            <button id="showBoard" class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Lets save Frodo!
+            <button id="showBoard" class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Давай спасем Фродо!
             </button>
         </p>
     </div>
