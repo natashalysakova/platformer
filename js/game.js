@@ -161,6 +161,8 @@ function restartGame(level) {
 	}
 	$("#counterLevels").flipCounter("setNumber", myGame.levels.length - myGame.currentLevel);
 	$("#audio-background")[0].play();
+    return true;
+
 }
 
 /**
@@ -293,6 +295,7 @@ function drawShape(shape, context) {
 			var ax = circle.m_R.col1;
 			var pos2 = new b2Vec2(pos.x + r * ax.x, pos.y + r * ax.y);
 			context.lineTo(pos2.x, pos2.y);
+            return true;
 			break;
 		case b2Shape.e_polyShape:
 			var poly = shape;
